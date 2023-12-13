@@ -32,7 +32,8 @@
 .header {
   grid-template-rows: 1fr min-content 1fr;
   /* height: 100vh; */
-  height: calc(100vh - 20px);
+  height: calc(100vh);
+  margin: 20px;
 }
 
 .header__theme-menu {
@@ -282,7 +283,7 @@
 
   .page {
     row-gap: 80px;
-    padding: 20px;
+    padding: 0px;
   }
 
   .main {
